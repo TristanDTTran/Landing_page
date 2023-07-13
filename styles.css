@@ -9,6 +9,8 @@ body {
     margin: 0px;
 }
 
+/* Page's Header section styling*/
+
 header section {
     margin-left: 150px;
     margin-right: 150px;
@@ -19,7 +21,6 @@ section, .header-logo,.header-links {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .page-header {
     background-color: #1F2937;
@@ -39,6 +40,9 @@ section .header-links a {
     height: auto;
 }
 
+
+
+/* Page's intro section styling*/
 
 .page-intro {
     display: flex;
@@ -68,3 +72,25 @@ section .header-links a {
 
 
 
+/* Page's Information section styling*/
+
+.page-information {
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.information-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-memorable div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
