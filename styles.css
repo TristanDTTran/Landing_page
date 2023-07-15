@@ -14,6 +14,7 @@ body {
 header section {
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 5px;
 }
 
 section, .header-logo,.header-links {
@@ -121,7 +122,35 @@ section .header-links a {
 }
 
 .quote-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Page's Footer section styling*/
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-container {
+    background-color: #3882f6;
+    width: 850px;
+    border-radius: 10px;
+    color: #F9FAF8;
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.footer-info {
+    padding-left: 100px;
+    padding-right: 100px;
 }
