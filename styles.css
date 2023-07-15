@@ -7,6 +7,7 @@
 
 body {
     margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Page's Header section styling*/
@@ -71,7 +72,7 @@ section .header-links a {
     width: 100px;
     height: 25px;
     background-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .intro-image img{
@@ -121,6 +122,38 @@ section .header-links a {
     flex-direction: column;
     align-items: center;
 }
+
+.information-heading div {
+    font-size: 36px;
+    font-weight:bolder;
+}
+
+.page-container .information-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-images div {
+    width: 80px;
+    height: 80px;
+
+    border: 2px;
+    border-color:#3882f6;
+    border-style:solid;
+    border-radius: 5px;
+
+    margin-right: 30px;
+}
+
+.information-images .information-img_4 {
+    margin-right: 0px;
+}
+
+.information-memorable {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Page's Quote Section styling */
 
