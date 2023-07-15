@@ -50,20 +50,34 @@ section .header-links a {
     background-color: #1F2937;
 }
 
-.intro-image img{
-    width: 350px;
-    height: auto;
-    margin-right: 150px;
+.intro-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.intro-div .intro-text {
+    padding-right: 120px;
+}
+
+.intro-image img{
+    margin-right: 150px;
+    width: auto;
+    height: 200px;
 }
 
 .intro-heading {
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 15px;
 }
 
 .intro-subtext {
     font-size: 18px;
+    padding-bottom: 15px;
 }
 
 .page-intro .intro-heading,.intro-subtext,button {
@@ -80,6 +94,8 @@ section .header-links a {
     
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 
@@ -93,4 +109,19 @@ section .header-links a {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Page's Quote Section styling */
+
+.page-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
 }
