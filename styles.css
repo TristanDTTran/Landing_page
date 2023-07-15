@@ -61,7 +61,17 @@ section .header-links a {
 }
 
 .intro-div .intro-text {
+    display: flex;
+    flex-direction: column;
     padding-right: 120px;
+}
+
+.intro-div button {
+    color: #E5E7EB;
+    width: 100px;
+    height: 25px;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .intro-image img{
@@ -142,8 +152,8 @@ section .header-links a {
 
 .footer-container {
     background-color: #3882f6;
-    width: 850px;
     border-radius: 10px;
+    width: 850px;
     color: #F9FAF8;
 
     margin-left: 150px;
