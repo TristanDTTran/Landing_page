@@ -154,6 +154,11 @@ section .header-links a {
     justify-content: space-between;
 }
 
+.information-memorable div {
+    width: 80px;
+    height: 80px;
+}
+
 
 /* Page's Quote Section styling */
 
