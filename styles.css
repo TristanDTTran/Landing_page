@@ -1,5 +1,5 @@
 
-{
+ {
     border: 0.1px;
     border-style:solid;
     border-color: red;
@@ -15,7 +15,7 @@ body {
 .page-header section {
     margin-left: 150px;
     margin-right: 150px;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 section, .header-logo,.header-links {
@@ -109,6 +109,7 @@ section .header-links a {
     display: flex;
     justify-content: center;
     
+    
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 100px;
@@ -124,12 +125,22 @@ section .header-links a {
     color: #1F2937;
 }
 
-.information-memorable div {
-    display: inline-flex;
+
+.information-memorable .memorable {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
+    width: 240px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+    font-size: 24px;
     color: #1F2937;
+}
+
+.information-memorable p {
+    font-size: 16px;
 }
 
 .information-heading div {
@@ -188,6 +199,10 @@ section .header-links a {
 }
 
 .quote-container .quote-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 36px;
     font-weight:lighter;
     color: #1F2937;
@@ -197,9 +212,14 @@ section .header-links a {
 }
 
 .quote-container .quote-author {
+    display: flex;
+    justify-content: flex-end;
+
     color: #1F2937;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 600;
+
+    padding-left: 350px;
 }
 
 
