@@ -1,5 +1,5 @@
 
-  {
+{
     border: 0.1px;
     border-style:solid;
     border-color: red;
@@ -284,4 +284,28 @@ button {
 .footer-info div {
     font-weight: bolder;
     font-size: 20px;
+}
+
+
+
+/* Page End styling*/
+
+.page-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.end-container {
+    display: flex;
+    
+}
+
+.end-container div {
+    color: #E5E7EB;
+    font-weight: light;
 }
